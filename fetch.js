@@ -16,6 +16,8 @@ fetch('data.json')
                 </div>
             `
         });
+
+        document.dispatchEvent(new Event('cardsLoaded'));
     })
     .catch(error => {
         console.log("data fetch nh ho raha " + error);
