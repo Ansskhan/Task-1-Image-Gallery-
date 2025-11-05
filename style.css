@@ -50,12 +50,10 @@ body {
 
 /* Logo Styling - Adjusted to work without absolute positioning */
 .navbar-brand .logo-icon img {
-	height: 40px;
-	position: absolute;
-	left: 97.2px;
-	bottom: 3px;
+	height: 39px;
+	margin-bottom: 8px;
+	position:sticky;
 	width: auto;
-	margin-right: 10px;
 	vertical-align: middle;
 }
 
